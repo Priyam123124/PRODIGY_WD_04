@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+.item{
+    width: 40vw;
+    background-color: rgb(93, 43, 231);
+    color: rgb(6, 230, 242);
+    margin-top: 50px;
+    border-radius: 20px;
+}

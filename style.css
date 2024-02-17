@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(background.jpeg);
+}
+.nav{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(93, 43, 231);
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    margin: 9px;
+    font-size: 18px;
+}
+.image{
+    margin-left: 26vw;
+}
+.flex{
+    display: flex;
+}
+.photo{
+    border: 2px solid #ccc; /* border style */
+  padding: 10px; /* spacing around the image */
+  width: 200px; /* adjust width as needed */
+  height: 200px; /* adjust height as needed */
+  border-radius: 50%; /* make the frame circular */
+  overflow: hidden; /* ensure the image stays within the circular frame */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo img{
+  object-fit: cover; /* cover the entire frame without distortion */
+}
+.photo1{
+    margin-top: 110px;
+    margin-right: 20px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 92vh;
+}
+.l3{
+    display: flex;
+    flex-direction: row;
+}
+.l1{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.l2{
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+.l3{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li:hover{
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(116, 151, 182);
+}
